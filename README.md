@@ -1,2 +1,35 @@
-# thinkbook-13x-gen4-enablement
-Tracking hardware enablement for Linux on the 2024 ThinkBook 13x Gen4
+tl;dr Hardware enablement still needs to happen, but very promising
+
+## Works (both Fedora 40 & Rawhide/41)
+
+- [x] NVMe
+- [x] Internal display + brightness controls
+- [x] Keyboard with the usual hot keys (not all)
+- [x] WiFi & Bluetooth (Intel AX211)
+- [x] Display out (USB-C display, did not test Thunderbolt/USB4)
+- [x] Keyboard backlight
+- [x] Power limits
+- [x] Power profiles
+- [x] Suspend, plugged in & unplugged while suspended
+- [x] s2idle (modern standby)
+
+## Broken
+
+- [ ] Fingerprint reader (no surprise)
+- [ ] Touch screen
+- [x] ~~Trackpad (haptic, clickpad probably works)~~ FIXED: https://github.com/ty2/goodix-gt7868q-linux-driver
+- [ ] Internal speakers (Sound card shows up, volume controls work, no sound)
+- [ ] Mic mute hot key led
+- [ ] Cameras (both normal & IR) -- probably that IPU6 garbage
+- [ ] Fn+Q (UEFI power/fan profile things), appears to have no effect
+
+## Noteworthy
+
+- Appears to idle at ~6 watts at full brightness
+  - Did not test under load, but probably similar to Windows here
+  - Power limit setting with power profiles is probably the superior battery life approach
+  - Battery stats & conservation mode is available via ideapad_laptop
+
+Hopefully after a few more kernel cycles the hardware enablement trickles in.
+
+Probe: http://linux-hardware.org/?probe=eface5275d 
