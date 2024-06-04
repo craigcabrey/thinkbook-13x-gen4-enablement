@@ -16,12 +16,13 @@ tl;dr Hardware enablement still needs to happen, but very promising
 ## Broken
 
 - [ ] Fingerprint reader (no surprise)
-- [ ] Touch screen
+- [x] ~~Touch screen~~ FIXED: https://github.com/quo/ithc-linux (use `sl6` branch for now)
 - [x] ~~Trackpad (haptic, clickpad probably works)~~ FIXED: https://github.com/ty2/goodix-gt7868q-linux-driver
 - [ ] Internal speakers (Sound card shows up, volume controls work, no sound)
 - [ ] Mic mute hot key led
 - [ ] Cameras (both normal & IR) -- probably that IPU6 garbage
 - [ ] Fn+Q (UEFI power/fan profile things), appears to have no effect
+- [x] ~~Seemingly low refresh rate (almost like VRR is on, but the compositor doesn't have it on)~~ FIXED: disable PSR `i915.enable_psr=0`
 
 ## Noteworthy
 
