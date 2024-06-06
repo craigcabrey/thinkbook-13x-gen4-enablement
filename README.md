@@ -24,6 +24,10 @@ tl;dr Hardware enablement still needs to happen, but very promising
 - [ ] Fn+Q (UEFI power/fan profile things), appears to have no effect
 - [x] ~~Seemingly low refresh rate (almost like VRR is on, but the compositor doesn't have it on)~~ FIXED: disable PSR `i915.enable_psr=0`
 
+## Misc
+
+- Night light (f.lux for Gnome) was broken out of the box, selecting a color profile for the internal display resolves this issue
+
 ## Noteworthy
 
 - Appears to idle at ~6 watts at full brightness
