@@ -18,7 +18,7 @@ tl;dr Hardware enablement still needs to happen, but very promising
 - [ ] Fingerprint reader (no surprise)
 - [x] ~~Touch screen~~ FIXED: https://github.com/quo/ithc-linux (use `sl6` branch for now)
 - [x] ~~Trackpad (haptic, clickpad probably works)~~ FIXED: https://github.com/ty2/goodix-gt7868q-linux-driver
-- [ ] Internal speakers (Sound card shows up, volume controls work, no sound)
+- [x] ~~Internal speakers (Sound card shows up, volume controls work, no sound)~~ FIXED: https://github.com/thesofproject/linux/issues/5036#issuecomment-2148594209
 - [ ] Mic mute hot key led
 - [ ] Cameras (both normal & IR) -- probably that IPU6 garbage
 - [ ] Fn+Q (UEFI power/fan profile things), appears to have no effect
