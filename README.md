@@ -24,6 +24,7 @@ tl;dr Hardware enablement still needs to happen, but very promising
 - [ ] Fn+Q (UEFI power/fan profile things), appears to have no effect
 - [x] ~~Seemingly low refresh rate (almost like VRR is on, but the compositor doesn't have it on)~~ FIXED: disable PSR `i915.enable_psr=0`
 - [x] ~~remap copilot key~~ FIXED: install [keyd](https://github.com/rvaiya/keyd) with `leftmeta+leftshift = layer(meta)`
+- [ ] NPU: Install [missing firmware](https://github.com/intel/linux-npu-driver/tree/main/firmware/bin) to `/lib/firmware/intel/vpu`
 
 ## Misc
 
