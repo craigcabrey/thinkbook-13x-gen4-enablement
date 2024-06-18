@@ -1,5 +1,7 @@
 tl;dr Hardware enablement still needs to happen, but very promising
 
+Enable this COPR to get the patched kernel & libfprint: https://copr.fedorainfracloud.org/coprs/craigcabrey/thinkbook-13x-gen4/
+
 ## Works (both Fedora 40 & Rawhide/41)
 
 - [x] NVMe
@@ -36,6 +38,13 @@ tl;dr Hardware enablement still needs to happen, but very promising
   - Did not test under load, but probably similar to Windows here
   - Power limit setting with power profiles is probably the superior battery life approach
   - Battery stats & conservation mode is available via ideapad_laptop
+
+## Dual Boot
+
+- Dual booting with Windows works fine
+- You'll need to disable Bitlocker encryption first, otherwise Fedora can't resize the Windows partition
+- You'll need to disable shim secure boot validation after Fedora is installed with `mokutil --disable-validation` (and follow the steps)
+- Windows Hello will be in a disabled state after doing this, but you can simply re-enroll your fingerprints afterwards
 
 Hopefully after a few more kernel cycles the hardware enablement trickles in.
 
