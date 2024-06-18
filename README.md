@@ -31,6 +31,8 @@ Enable this COPR to get the patched kernel & libfprint: https://copr.fedorainfra
 ## Misc
 
 - Night light (f.lux for Gnome) was broken out of the box, selecting a color profile for the internal display resolves this issue
+- [`tuned`](https://github.com/redhat-performance/tuned) seems to have a great configuration for this laptop out of the box
+  - Light use (such as editing this file in Firefox) at 5-7 watts with the balanced profile and reasonable display brightness
 
 ## Noteworthy
 
