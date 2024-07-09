@@ -1,6 +1,6 @@
 tl;dr Hardware enablement still needs to happen, but very promising
 
-Enable this COPR to get the patched kernel & libfprint: https://copr.fedorainfracloud.org/coprs/craigcabrey/thinkbook-13x-gen4/
+Enable this COPR to get the patched ~~kernel~~ (UPDATE: Use the [6.10 Rawhide builds instead](https://packages.fedoraproject.org/pkgs/kernel/kernel/fedora-rawhide.html)) & libfprint: https://copr.fedorainfracloud.org/coprs/craigcabrey/thinkbook-13x-gen4/
 
 ## Works (both Fedora 40 & Rawhide/41)
 
