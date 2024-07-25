@@ -18,7 +18,7 @@ Enable this COPR to get the patched ~~kernel~~ (UPDATE: Use the [6.10 Rawhide bu
 ## Broken
 
 - [x] ~~Fingerprint reader (no surprise)~~ ~~Works with a patch to libfprint!~~ [Patch merged](https://gitlab.freedesktop.org/libfprint/libfprint/-/merge_requests/494)
-- [x] ~~Touch screen~~ FIXED: https://github.com/quo/ithc-linux (use `sl6` branch for now)
+- [x] ~~Touch screen~~ FIXED: https://github.com/quo/ithc-linux ~~(use `sl6` branch for now)~~
 - [x] ~~Trackpad (haptic, clickpad probably works)~~ FIXED: https://github.com/ty2/goodix-gt7868q-linux-driver
 - [x] ~~Internal speakers (Sound card shows up, volume controls work, no sound)~~ FIXED: https://github.com/thesofproject/linux/issues/5036#issuecomment-2148594209
 - [ ] Mic mute hot key led
