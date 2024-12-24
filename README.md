@@ -4,8 +4,8 @@ tl;dr Hardware enablement still needs to happen, but very promising
 
 Enable the [COPR](https://copr.fedorainfracloud.org/coprs/craigcabrey/thinkbook-13x-gen4/) to get:
 
-* patched ~~kernel~~ UPDATE: Use the RC kernel from the [test day](https://fedoraproject.org/wiki/Test_Day:2024-07-28_Kernel_6.10_Test_Week#Download_kernel) (`kernel-6.10.1-200.fc40` as of this writing)
-* `libfprint` with MR494 for fingerprint reader support
+* ~~patched ~~kernel~~ UPDATE: Use the RC kernel from the [test day](https://fedoraproject.org/wiki/Test_Day:2024-07-28_Kernel_6.10_Test_Week#Download_kernel) (`kernel-6.10.1-200.fc40` as of this writing)~~
+* ~~`libfprint` with MR494 for fingerprint reader support~~
 * ~~`goodix-gt7868q-dkms` (haptic trackpad)~~ Upstreamed as of kernel 6.12 (Fedora 41) https://github.com/ty2/goodix-gt7868q-linux-driver/issues/6
 * `ithc-dkms` (touchscreen)
 
